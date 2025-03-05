@@ -1,0 +1,44 @@
+/****** LOGO, MENU AND ABOUT DETAILS SECTION ******/
+.navbar {
+    padding-top: 35px;
+    
+  }
+  .navbar-brand {
+    font-size: 30px;
+    background-color:white;
+    color: white;
+    mix-blend-mode: screen;
+  }
+  .offcanvas-header {
+    justify-content: end;
+  }
+  .nav-link {
+    color: black;
+    
+  }
+  .info {
+    padding-top: 15px;
+  }
+  .info p {
+    margin: 0px;
+  }
+  .navbar .info a {
+    font-size: 23px;
+    color: black;
+  }
+  .pb-100 {
+    padding-bottom: 100px;
+  }
+
+/*********PORTFOLIO SECTION PORTFOLIO SECTION*********/
+.portfolio-section {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+  }
+  .portfolio-section img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  

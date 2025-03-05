@@ -1,0 +1,139 @@
+/****** LOGO, MENU AND ABOUT DETAILS SECTION ******/
+.navbar {
+  padding-top: 35px;
+  
+}
+.navbar-brand {
+  font-size: 30px;
+  background-color:white;
+  color: white;
+  mix-blend-mode: screen;
+}
+.offcanvas-header {
+  justify-content: end;
+}
+.nav-link {
+  color: black;
+  
+}
+.info {
+  padding-top: 15px;
+}
+.info p {
+  margin: 0px;
+}
+.navbar .info a {
+  font-size: 23px;
+  color: black;
+}
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+
+/*************** ABOUT US SECTION ***************/
+.bg-color {
+    background-color: #eaedf2;
+  }
+  .about-left img {
+    width: 100%;
+  }
+  .about-right {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .about-right h2 {
+    font-size: 35px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .about-right h6 {
+    color: #f90505;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .about-right p {
+    line-height: 35px;
+    font-size: 16px;
+    margin-bottom: 50px;
+    letter-spacing: 0.2px;
+    word-spacing: 0.5px;
+  }
+  .about-right p span {
+    color: black;
+    font-weight: 600;
+    border-bottom: 3px solid red;
+  }
+  .about-right table tr td {
+    padding: 10px;
+  }
+  @media screen and (max-width: 768px) {
+    .about-right table tr td,
+    .about-right table tr th {
+      padding: 10px 0px;
+      font-size: 13px;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .about-right table tr td,
+    .about-right table tr th {
+      padding: 10px;
+      font-size: 16px;
+    }
+  }
+  
+  /***************COUNTER SECTION ***************/
+  .counter {
+    background: white;
+    padding: 50px 40px;
+    position: relative;
+    top: -50px;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 10%);
+  }
+  .counter-icon {
+    float: left;
+  }
+  .counter-icon i {
+    font-size: 50px;
+    color: #ff5722;
+    margin-top: 10px;
+    margin-right: 15px;
+  }
+  .counter-icon h5 {
+    font-size: 41px;
+    color: black;
+    font-weight: 600;
+    margin: 0px;
+  }
+  .counter-icon p {
+    margin: 0px;
+    line-height: 10px;
+    font-size: 14px;
+  }
+  @media screen and (max-width: 768px) {
+    .counter {
+      padding: 20px 20px;
+    }
+    .counter .col-6 {
+      margin-bottom: 30px;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .counter {
+      padding: 10px 10px;
+    }
+    .counter .col-6 {
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    .counter-icon i {
+      font-size: 30px;
+      margin-right: 5px;
+    }
+    .counter-icon h5 {
+      font-size: 25px;
+    }
+  }
+  
+  

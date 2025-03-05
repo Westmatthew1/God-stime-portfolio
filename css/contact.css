@@ -1,0 +1,104 @@
+/****** LOGO, MENU AND ABOUT DETAILS SECTION ******/
+.navbar {
+    padding-top: 35px;
+    
+  }
+  .navbar-brand {
+    font-size: 30px;
+    background-color:white;
+    color: white;
+    mix-blend-mode: screen;
+  }
+  .offcanvas-header {
+    justify-content: end;
+  }
+  .nav-link {
+    color: black;
+    
+  }
+  .info {
+    padding-top: 15px;
+  }
+  .info p {
+    margin: 0px;
+  }
+  .navbar .info a {
+    font-size: 23px;
+    color: black;
+  }
+  .pb-100 {
+    padding-bottom: 100px;
+  }
+
+
+  /*********CONTACT SECTION CONTACT SECTION*********/
+.contact-info {
+    background: black;
+    padding: 45px;
+  }
+  .contact-info h4 {
+    font-size: 17px;
+    margin-top: 25px;
+    color: white;
+    margin-bottom: 2px;
+  }
+  .contact-info p {
+    font-size: 15px;
+    color: #818385;
+    line-height: 30px;
+  }
+  .contact-info i {
+    background: #fff;
+    color: black;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 17px;
+    margin-right: 15px;
+    margin-top: 20px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .contact-form {
+    background: white;
+    padding: 45px;
+    box-shadow: 0px 0px 1px 0px #484848;
+  }
+  .contact-form h2 {
+    margin-top: 25px;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .contact-form input {
+    height: 45px;
+  }
+  .contact-form button {
+    color: white;
+    border: none;
+    background: red;
+    padding: 12px 30px;
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+  
+  .contact-form button:hover {
+    background: #ea4020;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .contact-form {
+      padding: 20px;
+    }
+    .contact-info i {
+      margin-right: 5px;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .contact-form {
+      padding: 20px;
+    }
+    .contact-info i {
+      margin-right: 5px;
+    }
+  }
+  

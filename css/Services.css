@@ -1,0 +1,80 @@
+/****** LOGO, MENU AND ABOUT DETAILS SECTION ******/
+.navbar {
+    padding-top: 35px;
+    
+  }
+  .navbar-brand {
+    font-size: 30px;
+    background-color:white;
+    color: white;
+    mix-blend-mode: screen;
+  }
+  .offcanvas-header {
+    justify-content: end;
+  }
+  .nav-link {
+    color: black;
+    
+  }
+  .info {
+    padding-top: 15px;
+  }
+  .info p {
+    margin: 0px;
+  }
+  .navbar .info a {
+    font-size: 23px;
+    color: black;
+  }
+  .pb-100 {
+    padding-bottom: 100px;
+  }
+
+
+  /*********SERVICES SECTION SERVICES SECTION S*********/
+.service-section {
+    width: 100%;
+    border: none;
+    background: white;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 10%);
+    padding: 55px 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    float: left;
+  }
+  .service-section img {
+    height: 105px;
+    margin-bottom: 15px;
+    padding: 0px;
+  }
+  .service-section h6 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: black;
+  }
+  .service-section p {
+    line-height: 30px;
+    font-size: 15px;
+  }
+  .service-border {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+  .service-border span {
+    border: 1px solid red;
+    width: 11%;
+    margin-bottom: 20px;
+  }
+  @media screen and (max-width: 768px) {
+    .service-section {
+      padding: 20px 20px;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .service-section {
+      padding: 20px 20px;
+    }
+  }
+  
